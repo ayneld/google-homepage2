@@ -26,7 +26,9 @@ color:rgba(0, 0, 0, 0.87);
         line-height: 24px;
         
     font-weight: lighter;
-    padding-left: 15px;
+    padding-left: 10px;
+    margin-right: 0px;
+    
 
     }
     a:link{
@@ -43,6 +45,7 @@ color:rgba(0, 0, 0, 0.87);
     img {
         
         width: 20%;
+        padding-bottom: 20px;
     }
     .ul-top {
         list-style-type: none;
@@ -66,18 +69,40 @@ color:rgba(0, 0, 0, 0.87);
         width: 500px;
         
     }
+   
    .table-bottom {
         position:absolute;
         bottom: 0px;
-        display: block;
+        display: flex;
         width:100%;
-        justify-content: space-evenly;
+        justify-content: space-between;
         background-color: rgb(238, 215, 215);
         font-weight: lighter;
         font-size: 13px;
         letter-spacing: normal;
         line-height: 24px;
         list-style-type: none;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        text-align: left;
+        
+    }
+    #france {
+        display: flex;
+        position:absolute;
+        bottom: 41px;
+        width: 100%;
+        background-color: rgb(238, 215, 215);
+        font-weight: lighter;
+        font-size: 13px;
+        letter-spacing: normal;
+        line-height: 24p;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        margin-right: 0px;
+        border-bottom: rgb(211, 204, 204) 1px solid;
     }
     tr {
         width: 100%;
@@ -85,7 +110,7 @@ color:rgba(0, 0, 0, 0.87);
 
     .buttons {
 margin: 10px;
-border: 1px solid rgba(248, 244, 244, 0.973);
+border: 1px solid rgba(197, 190, 190, 0.973);
 padding: 15px;
 border-radius: 20px;
     }
@@ -113,17 +138,19 @@ border-radius: 20px;
 <input class="buttons" type="submit" value="J'ai de la chance">
 </form>
 </div>
-<ul class="table-bottom">
-       <li>France</li>
+<ul id="france">
+    <li>
+        France
+    </li>
 </ul>
    <ul class="table-bottom"> 
-       <li>A propos</li>
-       <li>Publicite</li>
-       <li>Entreprise</li>
-       <li>Comment fonctionne la recherche Google?</li>
-       <li>Info consommateurs</li>
-       <li>Conditions</li>
-       <li>Confidentialite</li>
+       <li><a href="https://about.google/?utm_source=google-FR&utm_medium=referral&utm_campaign=hp-footer&fg=1">A propos</a></li>
+       <li><a href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-0000000068-0000000001&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicite</a></li>
+       <li><a href="https://smallbusiness.withgoogle.com/intl/fr_fr/?subid=fr-fr-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=fr-fr-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Entreprise</a></li>
+       <li><a href="https://www.google.com/search/howsearchworks/?fg=1">Comment fonctionne la recherche Google?</a></li>
+       <li><a href="https://support.google.com/websearch/answer/7585859?p=fr_consumer_info&hl=fr&fg=1&visit_id=637542517449648809-1559552777&rd=1">Info consommateurs</a></li>
+       <li><a href="https://policies.google.com/terms?hl=fr&fg=1">Conditions</a></li>
+       <li><a href="https://policies.google.com/privacy?hl=fr&fg=1">Confidentialite</a></li>
        <li>Parametres</li>
    </ul>
 
